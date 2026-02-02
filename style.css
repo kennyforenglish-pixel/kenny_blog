@@ -1,0 +1,83 @@
+
+*{
+padding:5px,0px;
+margin:0px;
+       
+}
+header,section,footer {
+    background-color: #313033;
+    border:10px #1d1d1d solid
+}
+.one ul li{
+    color:rgb(218, 214, 214);
+}
+h1,p,h2,a{
+    color:rgb(218, 214, 214);
+}
+image{
+    display:inline;
+}
+h1{
+    font-size:100px;
+}
+h1{
+    position:absolute;
+    left:30vw;
+    top:0px;
+    line-height:200px;
+}
+h2{
+    font-size:30px;
+}
+.photo_day2{
+    display: flex;
+}
+.photo_day2 div{
+    width:300px;
+    text-align: center;
+}
+.photo_day2 img{
+    width:100%;
+}
+
+.photo_day1{
+    display: flex;
+}
+.photo_day1 div{
+    width: 300px;
+    text-align: center;
+}
+.photo_day1 img{
+    width: 100%;
+}
+.photo_day3{
+    display: flex;
+}
+.photo_day3 div{
+    width: 300px;
+    text-align: center;
+}
+.photo_day3 img{
+    width: 100%;
+}
+.photo_day4{
+    display: flex;
+}
+.photo_day4 div{
+    width: 300px;
+    text-align: center;
+}
+.photo_day4 img{
+    width: 100%;
+}
+/*為了手機設計的格式*/
+@media screen and (max-width: 768px){
+    header h1{
+        font-size:50px;
+    }
+    header h1{
+        position:absolute;
+        right:10px;
+    }
+}
+
