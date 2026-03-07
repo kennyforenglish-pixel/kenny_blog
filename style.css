@@ -4,6 +4,10 @@ padding:5px,0px;
 margin:0px;
        
 }
+img{
+    max-width:100%;
+    height:auto;
+}
 header,section,footer {
     background-color: #313033;
     border:10px #1d1d1d solid
@@ -80,4 +84,5 @@ h2{
         right:10px;
     }
 }
+
 
